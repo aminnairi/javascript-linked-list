@@ -23,22 +23,7 @@ const myLinkedList = linkedList(2).addFirst(1).addFirst(0).removeFirst();
 
 console.log(Array.from(myLinkedList));
 // [1, 2]
+
+console.log(JSON.stringify(myLinkedList));
+// "[1,2]"
 ```
-
-## Todo
-
-- [x] Create a package setting
-- [x] Add a license
-- [x] Add documentation
-- [x] Add a changelog
-- [x] Publish the repository on GitHub
-- [x] Add a git tag
-- [x] Add unit tests
-- [x] Add a pull request template
-- [x] Add a bug report template
-- [x] Add a feature request template
-- [x] Add a contribution guideline
-- [x] Publish the library on NPM
-- [x] Optimize the library size
-- [x] Add a test workflow
-- [ ] Add a publish workflow
