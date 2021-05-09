@@ -14,6 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Token
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.AUTH_TOKEN }}" > .npmrc
+
       - name: Dependencies installation
         run: npm install
 
