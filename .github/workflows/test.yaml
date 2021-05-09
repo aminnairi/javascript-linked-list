@@ -1,0 +1,25 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - next
+
+  push:
+    branches:
+      - next
+
+jobs:
+  test:
+    name: Check that the specification is correct
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Dependencies installation
+        run: npm install
+
+      - name: Test
+        run: npm test
