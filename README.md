@@ -17,9 +17,10 @@ $ npm install @aminnairi/linked-list
 
 const {linkedList} = require("@aminnairi/linked-list");
 
-const myLinkedList = linkedList(2).addFirst(1).addFirst(0);
+const myLinkedList = linkedList(2).addFirst(1).addFirst(0).removeFirst();
 
 console.log(Array.from(myLinkedList));
+// [1, 2]
 ```
 
 ## Todo
