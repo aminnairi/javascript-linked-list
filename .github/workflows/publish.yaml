@@ -1,9 +1,9 @@
-name: Test
+name: Publish
 
 on:
-  pull_request:
+  push:
     branches:
-      - next
+      - latest
 
 jobs:
   test:
@@ -19,3 +19,9 @@ jobs:
 
       - name: Test
         run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish
+        run: npm publish --access public
