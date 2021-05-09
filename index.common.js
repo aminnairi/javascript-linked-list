@@ -13,6 +13,10 @@ const linkedList = (value, next) => ({
     return next;
   },
 
+  toJSON() {
+    return Array.from(linkedList(value, next));
+  },
+
   *[Symbol.iterator]() {
     if ("undefined" === typeof value) {
       return;
