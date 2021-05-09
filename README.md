@@ -1,5 +1,7 @@
 # @aminnairi/linked-list
 
+[![Test](https://github.com/aminnairi/javascript-linked-list/actions/workflows/test.yaml/badge.svg)](https://github.com/aminnairi/javascript-linked-list/actions/workflows/test.yaml)
+
 ## Requirements
 
 - Node
