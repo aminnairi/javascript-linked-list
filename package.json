@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "bugs": {
+    "url": "https://github.com/aminnairi/javascript-linked-list/issues"
+  },
+  "description": "Linked List without any side-effects",
+  "files": [
+    "index.common.js"
+  ],
+  "homepage": "https://github.com/aminnairi/javascript-linked-list",
+  "keywords": [
+    "linkedlist",
+    "linked",
+    "list",
+    "functional"
+  ],
+  "license": "MIT",
+  "main": "index.common.js",
+  "name": "@aminnairi/linked-list",
+  "version": "0.1.0"
+}
