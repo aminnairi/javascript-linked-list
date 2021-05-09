@@ -23,3 +23,9 @@ $ npm install
 ```console
 $ npm test
 ```
+
+## Build
+
+```console
+$ npm run build
+```
