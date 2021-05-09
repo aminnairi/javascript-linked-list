@@ -24,4 +24,10 @@ describe("linked-list", () => {
 
     expect(Array.from(myLinkedList)).to.deep.equal([]);
   });
+
+  it("should return the JSON representation of the linked list", () => {
+    const myLinkedList = linkedList(2).addFirst(1).addFirst(0);
+
+    expect(JSON.stringify(myLinkedList)).to.deep.equal("[0,1,2]");
+  });
 });
