@@ -40,6 +40,5 @@ console.log(Array.from(myLinkedList));
 - [x] Add a contribution guideline
 - [x] Publish the library on NPM
 - [x] Optimize the library size
-- [ ] Add a test workflow
-- [ ] Add examples
+- [x] Add a test workflow
 - [ ] Add a publish workflow
