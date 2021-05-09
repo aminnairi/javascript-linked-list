@@ -17,9 +17,10 @@ $ npm install @aminnairi/linked-list
 
 const {linkedList} = require("@aminnairi/linked-list");
 
-const myLinkedList = linkedList(2).addFirst(1).addFirst(0);
+const myLinkedList = linkedList(2).addFirst(1).addFirst(0).removeFirst();
 
 console.log(Array.from(myLinkedList));
+// [1, 2]
 ```
 
 ## Todo
@@ -28,15 +29,15 @@ console.log(Array.from(myLinkedList));
 - [x] Add a license
 - [x] Add documentation
 - [x] Add a changelog
-- [ ] Publish the repository on GitHub
+- [x] Publish the repository on GitHub
+- [x] Add a git tag
+- [x] Add unit tests
+- [x] Add a pull request template
+- [x] Add a bug report template
+- [x] Add a feature request template
+- [x] Add a contribution guideline
+- [x] Publish the library on NPM
 - [ ] Optimize the library size
-- [ ] Add unit tests
 - [ ] Add a test workflow
-- [ ] Add a pull request template
-- [ ] Add a bug report template
-- [ ] Add a feature request template
 - [ ] Add examples
-- [ ] Add a contribution guideline
-- [ ] Add a git tag
-- [ ] Publish the library on NPM
 - [ ] Add a publish workflow

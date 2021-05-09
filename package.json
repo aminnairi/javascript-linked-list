@@ -17,8 +17,16 @@
     "list",
     "functional"
   ],
+  "scripts": {
+    "test": "nyc mocha"
+  },
   "license": "MIT",
   "main": "index.common.js",
   "name": "@aminnairi/linked-list",
-  "version": "0.1.0"
+  "version": "0.2.0",
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "8.4.0",
+    "nyc": "15.1.0"
+  }
 }

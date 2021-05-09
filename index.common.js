@@ -5,7 +5,19 @@ const linkedList = (value, next) => ({
     return linkedList(newValue, linkedList(value, next));
   },
 
+  removeFirst() {
+    if ("undefined" === typeof next) {
+      return linkedList(next);
+    }
+
+    return next;
+  },
+
   *[Symbol.iterator]() {
+    if ("undefined" === typeof value) {
+      return;
+    }
+
     yield value;
 
     if ("undefined" !== typeof next) {
